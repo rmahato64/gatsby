@@ -1,3 +1,47 @@
-.footer{
-    margin-top: 3rem;
+.footer {
+    width: 100%;
+    background: #000000;
+    padding: 3rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-p-div {
+    width: 40%;
+  }  
+  .social {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  } 
+
+  
+  .social:hover i {
+  cursor: pointer;
+  }
+  
+  
+  .social div{
+      position: relative;
+
+  }
+  
+// social media icon colors
+a {
+  color: inherit;
 }
+  .y:hover {
+    color: red;
+  }
+  .t:hover {
+    color: rgb(56, 161, 243);
+  }
+  .g:hover {
+    color: rgb(221, 75, 57);
+  }
+  .l:hover {
+    color: blue;
+  }
+
+

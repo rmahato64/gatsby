@@ -15,7 +15,6 @@ html {
   details,
   figcaption,
   figure,
-  footer,
   header,
   main,
   menu,
@@ -44,6 +43,8 @@ html {
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color:inherit;
   }
   a:active,
   a:hover {
