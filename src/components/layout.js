@@ -4,6 +4,8 @@ import Footer from './footer'
 import BookMeeting from './bookMeeting'
 import '../styles/index.scss'
 import layoutStyles from './layout.module.scss'
+import ShareButtons from './sharebutton'
+
 
 const Layout = (props)=>{
     return (
